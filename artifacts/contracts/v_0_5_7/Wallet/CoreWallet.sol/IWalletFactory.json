@@ -1,0 +1,25 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IWalletFactory",
+  "sourceName": "contracts/v_0_5_7/Wallet/CoreWallet.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "investmentContract",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

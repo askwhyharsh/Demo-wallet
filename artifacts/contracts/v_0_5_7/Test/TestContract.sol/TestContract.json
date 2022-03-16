@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TestContract",
+  "sourceName": "contracts/v_0_5_7/Test/TestContract.sol",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_state",
+          "type": "uint256"
+        },
+        {
+          "name": "_erc20",
+          "type": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "setStateAndPayToken",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_state",
+          "type": "uint256"
+        }
+      ],
+      "name": "setState",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "state",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "_state",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "StateSet",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610292806100206000396000f3fe6080604052600436106100345760003560e01c806316f3e90114610039578063a9e966b71461009e578063c19d93fb146100cc575b600080fd5b34801561004557600080fd5b5061009c6004803603606081101561005c57600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506100f7565b005b6100ca600480360360208110156100b457600080fd5b8101908080359060200190929190505050610228565b005b3480156100d857600080fd5b506100e1610260565b6040518082815260200191505060405180910390f35b8173ffffffffffffffffffffffffffffffffffffffff166323b872dd3330846040518463ffffffff1660e01b8152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b1580156101b257600080fd5b505af11580156101c6573d6000803e3d6000fd5b505050506040513d60208110156101dc57600080fd5b8101908080519060200190929190505050508260008190555080837f110bf4f070eb65f04035094f96fd5ac2398196dffe9a63f8e5497584b265954d60405160405180910390a3505050565b8060008190555034817f110bf4f070eb65f04035094f96fd5ac2398196dffe9a63f8e5497584b265954d60405160405180910390a350565b6000548156fea165627a7a72305820c500d4e830393c8511d27b0cec9905259f12a6eaa2b04c361686bf6e9611d1920029",
+  "deployedBytecode": "0x6080604052600436106100345760003560e01c806316f3e90114610039578063a9e966b71461009e578063c19d93fb146100cc575b600080fd5b34801561004557600080fd5b5061009c6004803603606081101561005c57600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506100f7565b005b6100ca600480360360208110156100b457600080fd5b8101908080359060200190929190505050610228565b005b3480156100d857600080fd5b506100e1610260565b6040518082815260200191505060405180910390f35b8173ffffffffffffffffffffffffffffffffffffffff166323b872dd3330846040518463ffffffff1660e01b8152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b1580156101b257600080fd5b505af11580156101c6573d6000803e3d6000fd5b505050506040513d60208110156101dc57600080fd5b8101908080519060200190929190505050508260008190555080837f110bf4f070eb65f04035094f96fd5ac2398196dffe9a63f8e5497584b265954d60405160405180910390a3505050565b8060008190555034817f110bf4f070eb65f04035094f96fd5ac2398196dffe9a63f8e5497584b265954d60405160405180910390a350565b6000548156fea165627a7a72305820c500d4e830393c8511d27b0cec9905259f12a6eaa2b04c361686bf6e9611d1920029",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

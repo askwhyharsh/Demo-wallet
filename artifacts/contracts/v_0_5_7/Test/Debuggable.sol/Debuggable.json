@@ -1,0 +1,212 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Debuggable",
+  "sourceName": "contracts/v_0_5_7/Test/Debuggable.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "timeNow",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogUint256",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "uint64"
+        }
+      ],
+      "name": "LogUint64",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "uint32"
+        }
+      ],
+      "name": "LogUint32",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "uint8"
+        }
+      ],
+      "name": "LogUint8",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "value",
+          "type": "int256"
+        }
+      ],
+      "name": "LogInt256",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "LogAddress",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "bytes32"
+        }
+      ],
+      "name": "LogBytes32",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "bytes4"
+        }
+      ],
+      "name": "LogBytes4",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "bytes1"
+        }
+      ],
+      "name": "LogBytes1",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "bytes"
+        }
+      ],
+      "name": "LogBytes",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "b",
+          "type": "bool"
+        }
+      ],
+      "name": "LogBool",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50607d8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063d95660be14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b60004290509056fea165627a7a72305820b8a7ed8449efa8db0d573b8537aa158485b7f6ec47bc2c411a0c015c8cb1e4490029",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063d95660be14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b60004290509056fea165627a7a72305820b8a7ed8449efa8db0d573b8537aa158485b7f6ec47bc2c411a0c015c8cb1e4490029",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

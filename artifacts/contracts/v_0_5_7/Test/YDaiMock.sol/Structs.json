@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Structs",
+  "sourceName": "contracts/v_0_5_7/Test/YDaiMock.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50604380601d6000396000f3fe6080604052600080fdfea265627a7a72305820daaad76519fae7237e6ec3b30ebf70bc6e1f7b9e50a429bdde6c7bf72e297f786c6578706572696d656e74616cf50037",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72305820daaad76519fae7237e6ec3b30ebf70bc6e1f7b9e50a429bdde6c7bf72e297f786c6578706572696d656e74616cf50037",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

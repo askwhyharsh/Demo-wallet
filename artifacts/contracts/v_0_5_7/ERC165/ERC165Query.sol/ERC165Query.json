@@ -1,0 +1,62 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ERC165Query",
+  "sourceName": "contracts/v_0_5_7/ERC165/ERC165Query.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "_INTERFACE_ID_ERC165",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "_INTERFACE_ID_INVALID",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_contract",
+          "type": "address"
+        },
+        {
+          "name": "_interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "doesContractImplementInterface",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061035d806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806359931a4814610046578063c8acad6f146100a2578063e9c54384146100fe575b600080fd5b61004e610183565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b6100aa61018e565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b6101696004803603604081101561011457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050610199565b604051808215151515815260200191505060405180910390f35b6301ffc9a760e01b81565b63ffffffff60e01b81565b60008060006101af856301ffc9a760e01b61024e565b809250819350505060008214806101c65750600081145b156101d657600092505050610248565b6101e78563ffffffff60e01b61024e565b809250819350505060008214806101ff575060008114155b1561020f57600092505050610248565b610219858561024e565b80925081935050506001821480156102315750600181145b1561024157600192505050610248565b6000925050505b92915050565b60008060606301ffc9a760e01b8460405160240180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19168152602001915050604051602081830303815290604052907bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff838183161783525050505090508060200181516040516000815260208183858b617530fa95508051945050505050925092905056fea165627a7a723058209c563250c37a1ec4eae554964341da1d512993d606b4b5c8b773debeea96fadf0029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806359931a4814610046578063c8acad6f146100a2578063e9c54384146100fe575b600080fd5b61004e610183565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b6100aa61018e565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b6101696004803603604081101561011457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050610199565b604051808215151515815260200191505060405180910390f35b6301ffc9a760e01b81565b63ffffffff60e01b81565b60008060006101af856301ffc9a760e01b61024e565b809250819350505060008214806101c65750600081145b156101d657600092505050610248565b6101e78563ffffffff60e01b61024e565b809250819350505060008214806101ff575060008114155b1561020f57600092505050610248565b610219858561024e565b80925081935050506001821480156102315750600181145b1561024157600192505050610248565b6000925050505b92915050565b60008060606301ffc9a760e01b8460405160240180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19168152602001915050604051602081830303815290604052907bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff838183161783525050505090508060200181516040516000815260208183858b617530fa95508051945050505050925092905056fea165627a7a723058209c563250c37a1ec4eae554964341da1d512993d606b4b5c8b773debeea96fadf0029",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

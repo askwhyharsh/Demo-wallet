@@ -1,0 +1,46 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IIEarnManager",
+  "sourceName": "contracts/v_0_5_7/Test/YDaiMock.sol",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "recommend",
+      "outputs": [
+        {
+          "name": "choice",
+          "type": "string"
+        },
+        {
+          "name": "capr",
+          "type": "uint256"
+        },
+        {
+          "name": "iapr",
+          "type": "uint256"
+        },
+        {
+          "name": "aapr",
+          "type": "uint256"
+        },
+        {
+          "name": "dapr",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
